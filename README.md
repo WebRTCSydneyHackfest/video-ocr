@@ -5,30 +5,26 @@ An example app for setting up a video conference using [rtc-glue](https://github
 
 Getting started:
 
-# Clone the repo:
+1. Clone the repo:
+    ```
+    git clone https://github.com/silviapfeiffer/rtcio-template.git
+    ```
 
-```
-git clone https://github.com/silviapfeiffer/rtcio-template.git
-```
+2. Install node dependencies (it's assume you have node installed):
+    ```
+    npm install
+    ```
 
-# Install node dependencies (it's assume you have node installed):
+3. Run the server:
+    ```
+    npm start
+    ```
 
-```
-npm install
-```
-# Run the server:
-
-```
-npm start
-```
-
-# Find the application at the following urls:
-
-http://localhost:1337/index.html
+4. Find the application at the following urls:
+    http://localhost:1337/index.html
 
 
 To start the app on a different port, run it as:
-
-```
-NODE_PORT=3020 npm start
-```
+    ```
+    NODE_PORT=3020 npm start
+    ```
