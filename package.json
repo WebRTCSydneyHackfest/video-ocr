@@ -1,0 +1,14 @@
+{
+  "name": "rtcio-template",
+  "version": "0.0.1",
+  "description": "an application template for rtc.io",
+  "main": "server.js",
+  "author": "author@example.com",
+  "dependencies": {
+    "rtc": "~0.7.2",
+    "express": "~3.4.0",
+    "browserify-middleware": "~1.19.0",
+    "rtc-glue": "~0.3.0",
+    "rtc-switchboard": "~0.3.1"
+  }
+}

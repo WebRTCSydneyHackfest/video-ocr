@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="rtc-room" content="test">
+  <title>rtc.io application template</title>
+</head>
+<body>
+  <!-- video for our local capture -->
+  <video id="main" rtc-capture="camera"></video>
+
+  <!-- remote container for our friend -->
+  <video rtc-peer rtc-stream="main" muted></video>
+
+  <script src="js/common.js"></script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+# stupid mac image cache files
+.DS_Store
+npm-debug.log
+node_modules
