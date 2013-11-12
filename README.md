@@ -10,7 +10,7 @@ Getting started:
     git clone https://github.com/silviapfeiffer/rtcio-template.git
     ```
 
-2. Install node dependencies (it's assume you have node installed):
+2. Install node dependencies (it's assumed you have node installed):
     ```
     npm install
     ```
@@ -20,9 +20,10 @@ Getting started:
     npm start
     ```
 
-4. Find the application at the following urls:
+4. Find the application at the following url:
+    ```
     http://localhost:1337/index.html
-
+    ```
 
 To start the app on a different port, run it as:
     ```
