@@ -1,9 +1,7 @@
 rtcio-template
 ==============
 
-An example app for setting up a video conference using rtc-glue and rtc-switchboard.
-https://github.com/rtc-io/rtc-glue
-https://github.com/rtc-io/rtc-switchboard
+An example app for setting up a video conference using [rtc-glue](https://github.com/rtc-io/rtc-glue) and [rtc-switchboard](https://github.com/rtc-io/rtc-switchboard).
 
 Getting started:
 
