@@ -29,3 +29,5 @@ To start the app on a different port, run it as:
     ```
     NODE_PORT=3020 npm start
     ```
+
+You can also run it with a different signalling server. Just edit public/js/common.js and change the signalhost.
