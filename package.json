@@ -3,7 +3,18 @@
   "version": "0.0.1",
   "description": "an application template for rtc.io",
   "main": "server.js",
-  "author": "author@example.com",
+  "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/silviapfeiffer/rtcio-template.git"
+  },
+  "author": "silviapfeiffer1@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/silviapfeiffer/rtcio-template/issues"
+  },
   "dependencies": {
     "rtc": "~0.7.2",
     "express": "~3.4.0",
