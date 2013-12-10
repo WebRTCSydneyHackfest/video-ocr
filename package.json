@@ -1,5 +1,5 @@
 {
-  "name": "rtcio-template",
+  "name": "rtcio-demo-peerconnection",
   "version": "0.0.1",
   "description": "an application template for rtc.io",
   "main": "server.js",
@@ -8,18 +8,18 @@
     },
   "repository": {
     "type": "git",
-    "url": "git://github.com/silviapfeiffer/rtcio-template.git"
+    "url": "git://github.com/rtc-io/rtcio-demo-peerconnection.git"
   },
   "author": "silviapfeiffer1@gmail.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/silviapfeiffer/rtcio-template/issues"
+    "url": "https://github.com/rtc-io/rtcio-demo-peerconnection/issues"
   },
   "dependencies": {
-    "rtc": "~0.7.2",
+    "rtc": "~0.11.0",
     "express": "~3.4.0",
     "browserify-middleware": "~1.19.0",
-    "rtc-glue": "~0.3.0",
-    "rtc-switchboard": "~0.3.1"
+    "rtc-glue": "~0.6.0",
+    "rtc-switchboard": "~0.4.0"
   }
 }
