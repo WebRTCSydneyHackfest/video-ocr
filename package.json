@@ -10,7 +10,10 @@
     "type": "git",
     "url": "git://github.com/rtc-io/rtcio-demo-peerconnection.git"
   },
-  "author": "silviapfeiffer1@gmail.com",
+  "keywords": [
+    "webrtc"
+  ],
+  "author": "Silvia Pfeiffer <silvia.pfeiffer@nicta.com.au>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/rtc-io/rtcio-demo-peerconnection/issues"
@@ -19,6 +22,6 @@
     "express": "~3.4.0",
     "browserify-middleware": "~1.19.0",
     "rtc-glue": "~0.6.0",
-    "rtc-switchboard": "~0.4.0"
+    "rtc-switchboard": "~0.4.1"
   }
 }
