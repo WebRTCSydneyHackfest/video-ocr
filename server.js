@@ -8,14 +8,6 @@ var app = express();
 
 // all environments
 app.set('port', process.env.NODE_PORT || 1337);
-// app.set('views', __dirname + '/views');
-// app.set('view engine', 'jade');
-// app.use(express.favicon(__dirname + '/public/images/favicon.ico'));
-app.use(express.logger('dev'));
-app.use(express.cookieParser());
-app.use(express.bodyParser());
-app.use(express.session({ secret: 'nicta-test' }));
-app.use(express.methodOverride());
 app.use(app.router);
 
 app.use('/js', browserify(path.join(__dirname, 'public/js'), {
