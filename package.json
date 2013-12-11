@@ -1,6 +1,6 @@
 {
   "name": "rtcio-demo-peerconnection",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "an application template for rtc.io",
   "main": "server.js",
   "scripts": {
@@ -16,7 +16,6 @@
     "url": "https://github.com/rtc-io/rtcio-demo-peerconnection/issues"
   },
   "dependencies": {
-    "rtc": "~0.11.0",
     "express": "~3.4.0",
     "browserify-middleware": "~1.19.0",
     "rtc-glue": "~0.6.0",
