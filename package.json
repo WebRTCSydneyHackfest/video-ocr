@@ -4,8 +4,8 @@
   "description": "an application template for rtc.io",
   "main": "server.js",
   "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/rtc-io/rtcio-demo-peerconnection.git"
@@ -21,7 +21,7 @@
   "dependencies": {
     "express": "~3.4.0",
     "browserify-middleware": "~1.19.0",
-    "rtc-glue": "~0.6.0",
-    "rtc-switchboard": "~0.4.1"
+    "rtc-glue": "~0.7.0",
+    "rtc-switchboard": "~0.5.0"
   }
 }
