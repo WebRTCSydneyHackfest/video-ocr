@@ -1,5 +1,5 @@
 {
-  "name": "rtcio-demo-peerconnection",
+  "name": "rtcio-demo-glue",
   "version": "0.0.2",
   "description": "an application template for rtc.io",
   "main": "server.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/rtc-io/rtcio-demo-peerconnection.git"
+    "url": "git://github.com/rtc-io/rtcio-demo-glue.git"
   },
   "keywords": [
     "webrtc"
@@ -16,7 +16,7 @@
   "author": "Silvia Pfeiffer <silvia.pfeiffer@nicta.com.au>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rtc-io/rtcio-demo-peerconnection/issues"
+    "url": "https://github.com/rtc-io/rtcio-demo-glue/issues"
   },
   "dependencies": {
     "express": "~3.4.0",
