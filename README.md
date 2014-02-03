@@ -1,12 +1,7 @@
-rtcio-demo-glue
-===============
+OCR on a peer connection video
+==============================
 
-An example app for setting up a video conference using [rtc-glue](https://github.com/rtc-io/rtc-glue) and [rtc-switchboard](https://github.com/rtc-io/rtc-switchboard).
-
-The "app" is found in public/index.html and demonstrates:
-* how to get access to the local video camera in a video element; the rtc-capture attribute provides constraints on what to capture, e.g. camera:0 us the first camera or min:1280x720 to set the resolution
-* how to declare the remote video element; make sure rthe tc-stream attribute points to the id of a local video camera element
-* how to set the signalhost when you're running it on a node.js server
+This app is built using [rtc-glue](https://github.com/rtc-io/rtc-glue) and [rtc-switchboard](https://github.com/rtc-io/rtc-switchboard) as well as [ocrad.js](http://antimatter15.github.io/ocrad.js/demo.html) for OCR.
 
 
 

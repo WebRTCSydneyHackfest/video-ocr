@@ -8,30 +8,22 @@
   </style>
 <head>
   <meta name="rtc-room" content="test">
-  <title>rtc.io peerconnection demonstration</title>
+  <title>rtc.io peerconnection and OCR</title>
 </head>
 <body>
-  <h2>rtc.io PeerConnection demostrator</h2>
+  <h2>rtc.io PeerConnection and OCR</h2>
+
   <div>
     <h3>Local Video</h3>
-    <p>The page will ask for access to your Web cam, please agree.</p>
-		<!-- video for our local capture -->
 		<video id="main" rtc-capture="camera" muted></video>
+    <canvas id="canvas"></canvas>
   </div>
+
   <div>
     <h3>Remote Video</h3>
-    <p>Here, the remote video will turn up after a few seconds when you load the same page in a second browser.</p>
-		<!-- remote container for our friend -->
 		<video rtc-peer rtc-stream="main"></video>
   </div>
-  <div>
-    <p>Here is the code that achieves this:</p>
-    <pre><code>
-      &lt;video id="main" rtc-capture="camera" muted>&lt;/video>
-      &lt;video rtc-peer rtc-stream="main">&lt;/video>
-      &lt;script src="js/common.js">&lt;/script>
-    </code></pre>
-  </div>
+
   <script src="js/common.js"></script>
 </body>
 </html>
