@@ -10,11 +10,12 @@ var video = document.getElementsByTagName('video');
 // signal host is just the browser url without any path
 glue.config.signalhost = location.href.replace(/(^.*\/).*$/, '$1');
 
+var whichVideo = 1;
 
-video[0].addEventListener('timeupdate', function() {
-	canvas.width = video[0].offsetWidth;
-	canvas.height = video[0].offsetHeight;
-    context.drawImage(video[0], 0, 0, canvas.width, canvas.height);
+video[whichVideo].addEventListener('timeupdate', function() {
+	canvas.width = video[whichVideo].offsetWidth;
+	canvas.height = video[whichVideo].offsetHeight;
+    context.drawImage(video[whichVideo], 0, 0, canvas.width, canvas.height);
 }, false);
 
 document.addEventListener('keydown', function(event) {
