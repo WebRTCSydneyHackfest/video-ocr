@@ -22,6 +22,7 @@
     "express": "~3.4.0",
     "browserify-middleware": "~2.3.0",
     "rtc-glue": "~0.8.0",
-    "rtc-switchboard": "~0.5.2"
+    "rtc-switchboard": "~0.5.2",
+    "ws": "~0.4.31"
   }
 }
